@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'lo8r%j!apb%x#_x@$y#xus+725oi@+t2@4*0lgbvp4m&c939t)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','coviddat.herokuapp.com']
 
 
 # Application definition
